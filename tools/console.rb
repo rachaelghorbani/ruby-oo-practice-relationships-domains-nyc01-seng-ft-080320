@@ -54,4 +54,28 @@ ingredient4 = Ingredients.new("Water", 0, dessert4)
 ingredient5 = Ingredients.new("Salt", 15, dessert3)
 ingredient5 = Ingredients.new("Salty Popcorn", 15, dessert3)
 
+
+################ LYFT INSTANCES ################
+
+######## PASSENGER ########
+pass1 = Passenger.new("Judy")
+pass2 = Passenger.new("Blade")
+pass3 = Passenger.new("Joe")
+
+######## DRIVER ########
+
+driver1 = Driver.new("Valdet")
+driver2 = Driver.new("Toni")
+driver3 = Driver.new("Juan")
+
+######## RIDE ########
+
+ride1 = Ride.new(15.92, pass1, driver2)
+ride2 = Ride.new(557.2, pass2, driver3)
+ride3 = Ride.new(3.0, pass3, driver1)
+ride4 = Ride.new(4.33, pass1, driver1)
+ride4 = Ride.new(87.3, pass1, driver1)
+ride5 = Ride.new(77.3, pass2, driver2)
+ride6 = Ride.new(108.0, pass3, driver2)
+
 Pry.start
