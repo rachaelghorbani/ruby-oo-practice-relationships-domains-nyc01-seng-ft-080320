@@ -142,6 +142,26 @@ sc3 = ShowCharacter.new(show3, char3)
 sc4 = ShowCharacter.new(show2, char3)
 
 
+################ GYM INSTANCES ################
+
+######## TRAINERS ########
+
+t1 = Trainer.new("Judy")
+t2 = Trainer.new("Natacha")
+t3 = Trainer.new("Fanta")
+t4 = Trainer.new("Soloman")
+
+######## CLIENTS ########
+
+c1 = Client.new("Sam")
+c2 = Client.new("Blade")
+c3 = Client.new("Valdet")
+
+######## LOCATIONS ########
+
+l1 = Location.new("Lexington")
+l2 = Location.new("LES")
+l3 = Location.new("NoHo")
 
 
 
