@@ -163,6 +163,29 @@ l1 = Location.new("Lexington")
 l2 = Location.new("LES")
 l3 = Location.new("NoHo")
 
+################ CROWDFUNDING INSTANCES ################
+
+######## USERS ########
+u1 = User.new("Johnny")
+u2 = User.new("Sandy")
+u3 = User.new("Sam")
+u4 = User.new("Jordan")
+
+######## PROJECTS ########
+
+pr1 = Project.new("Kicks", u1, 1500)
+pr2 = Project.new("Oreos", u1, 700)
+pr3 = Project.new("Dog Rescue", u3, 800)
+pr4 = Project.new("Cat Rescue", u4, 600)
+pr5 = Project.new("Bird Rescue", u2, 50)
+
+######## PLEDGES ########
+
+pl1 = Pledge.new(u1, pr3, 100)
+pl2 = Pledge.new(u2, pr3, 400)
+pl3 = Pledge.new(u2, pr3, 25)
+pl4 = Pledge.new(u4, pr3, 1335)
+pl4 = Pledge.new(u4, pr5, 804444)
 
 
 
