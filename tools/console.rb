@@ -78,4 +78,72 @@ ride4 = Ride.new(87.3, pass1, driver1)
 ride5 = Ride.new(77.3, pass2, driver2)
 ride6 = Ride.new(108.0, pass3, driver2)
 
+
+################ IMDB INSTANCES ################
+
+######## ACTOR ########
+act1 = Actor.new("Tom Cruz", 42)
+act2 = Actor.new("Channing Tatum", 25)
+act3 = Actor.new("Oprah", 67)
+act4 = Actor.new("Oprah", 67)
+
+
+######## CHARACTER ########
+
+char1 = Character.new("Stripper", act2)
+char2 = Character.new("Pilot", act1)
+char3 = Character.new("Another Pilot", act1)
+char4 = Character.new("Maria", act3)
+char4 = Character.new("Maria", act3)
+######## MOVIE ########
+
+mov1 = Movie.new("Magic Mike", "Jim Jones")
+mov2 = Movie.new("Coming Home", "No Idea")
+mov3 = Movie.new("Tired", "Judy Judd")
+
+######## SHOW ########
+
+show1 = Show.new("Brooklyn 99")
+show2 = Show.new("Girls")
+show3 = Show.new("Criminal Minds")
+show4 = Show.new("Tired")
+
+######## MovieActor ########
+
+ma1 = MovieActor.new(mov1, act1)
+ma2 = MovieActor.new(mov2, act2)
+ma3 = MovieActor.new(mov3, act3)
+ma4 = MovieActor.new(mov2, act3)
+ma5 = MovieActor.new(mov2, act1)
+ma6 = MovieActor.new(mov2, act2)
+
+
+
+######## MovieCharacter ########
+
+mc1 = MovieCharacter.new(mov1, char1)
+mc2 = MovieCharacter.new(mov2, char2)
+mc3 = MovieCharacter.new(mov3, char3)
+mc4 = MovieCharacter.new(mov2, char1)
+mc4 = MovieCharacter.new(mov2, char3)
+
+######## ShowActor ########
+
+sa1 = ShowActor.new(show1, act1)
+sa2 = ShowActor.new(show2, act2)
+sa1 = ShowActor.new(show3, act3)
+sa1 = ShowActor.new(show1, act2)
+
+######## ShowCharacter ########
+
+sc1 = ShowCharacter.new(show1, char1)
+sc2 = ShowCharacter.new(show2, char2)
+sc3 = ShowCharacter.new(show3, char3)
+sc4 = ShowCharacter.new(show2, char3)
+
+
+
+
+
+
 Pry.start
